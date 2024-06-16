@@ -1,110 +1,124 @@
-
+/* Reset and basic styling */
 body {
-    font-family: Verdana, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: Verdana, sans-serif; /* Set font family */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Flex container for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
 }
 
+/* Container styling for the calculator */
 .container {
-    background: #fff;
-    padding: 20px;
-    border-radius: 25px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    max-width: 650px;
-    width: 100%;
-    box-sizing: border-box;
+    background: #fff; /* White background */
+    padding: 20px; /* Padding around the container */
+    border-radius: 25px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0,0,0,0.2); /* Shadow for depth */
+    max-width: 650px; /* Maximum width of the container */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
 }
 
+/* Heading styling */
 h1 {
-    text-align: center;
+    text-align: center; /* Center-align heading */
 }
 
+/* Form row styling */
 .form-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5px;
-    margin-right: 10px;
-
+    display: flex; /* Flex layout for form rows */
+    justify-content: space-between; /* Space evenly between items */
+    margin-bottom: 5px; /* Bottom margin for spacing */
+    margin-right: 10px; /* Right margin for spacing */
 }
 
+/* Individual form group styling */
 .form-group {
-    flex: 1;
-    margin-bottom: 15px;
-    margin-right: 20px;
+    flex: 1; /* Take up equal space in the flex container */
+    margin-bottom: 15px; /* Bottom margin for spacing */
+    margin-right: 20px; /* Right margin for spacing */
 }
 
+/* Remove right margin for last form group in a row */
 .form-group:last-child {
-    margin-right: 0;
+    margin-right: 0; /* No right margin */
 }
 
+/* Label styling */
 label {
-    display: block;
-    margin-bottom: 5px;
+    display: block; /* Block level display for labels */
+    margin-bottom: 5px; /* Bottom margin for spacing */
 }
 
+/* Input and select styling */
 input[type="number"], select {
-    width: calc(100% - 10px);
-    padding: 8px;
-    margin-bottom: 5px;
+    width: calc(100% - 10px); /* Full width minus 10px for padding */
+    padding: 8px; /* Padding for input elements */
+    margin-bottom: 5px; /* Bottom margin for spacing */
 }
 
+/* Range input styling */
 input[type="range"] {
-    width: 100%;
+    width: 100%; /* Full width for range input */
 }
 
+/* Results section styling */
 .results {
-    margin-top: 20px;
+    margin-top: 20px; /* Top margin for separation */
 }
 
+/* Heading in results section styling */
 .results h2 {
-    text-align: center;
-    margin-bottom: 15px;
+    text-align: center; /* Center-align heading */
+    margin-bottom: 15px; /* Bottom margin for spacing */
 }
 
+/* Details section styling */
 .details {
-    display: flex;
-    justify-content: space-between;
-    border-top: 2px solid #ccc;
-    padding-top: 10px;
+    display: flex; /* Flex layout for details */
+    justify-content: space-between; /* Space evenly between items */
+    border-top: 2px solid #ccc; /* Top border for separation */
+    padding-top: 10px; /* Top padding for spacing */
 }
 
+/* Individual detail item styling */
 .detail-item {
-    flex: 1;
-    margin-right: 10px;
+    flex: 1; /* Take up equal space in the flex container */
+    margin-right: 10px; /* Right margin for spacing */
 }
 
+/* Remove right margin for last detail item in a row */
 .detail-item:last-child {
-    margin-right: 0;
+    margin-right: 0; /* No right margin */
 }
 
+/* Paragraph styling */
 p {
-    margin: 15px 0;
+    margin: 15px 0; /* Margin around paragraphs */
 }
 
+/* Media query for responsive design */
 @media (max-width: 600px) {
     .form-row {
-        flex-direction: column;
+        flex-direction: column; /* Stack form rows vertically on smaller screens */
     }
 
     .form-group {
-        margin-right: 0;
+        margin-right: 0; /* Remove right margin for form groups */
     }
 
     .details {
-        flex-direction: column;
+        flex-direction: column; /* Stack details vertically on smaller screens */
     }
 
     .detail-item {
-        margin-right: 0;
-        margin-bottom: 10px;
+        margin-right: 0; /* Remove right margin for detail items */
+        margin-bottom: 10px; /* Bottom margin for spacing */
     }
 
     .detail-item:last-child {
-        margin-bottom: 0;
+        margin-bottom: 0; /* No bottom margin for last detail item */
     }
 }

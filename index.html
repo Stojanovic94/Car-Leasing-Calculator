@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Leasing Calculator</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
     <div class="container">
         <h1>Car Leasing Calculator</h1>
+        <!-- Form for user inputs -->
         <form id="leasing-form">
+            <!-- First row of form inputs -->
             <div class="form-row">
+                <!-- Car Type Dropdown -->
                 <div class="form-group">
                     <label for="car-type">Car Type:</label>
                     <select id="car-type" name="car-type">
@@ -18,6 +21,7 @@
                         <option value="used">Used</option>
                     </select>
                 </div>
+                <!-- Lease Period Dropdown -->
                 <div class="form-group">
                     <label for="lease-period">Lease Period (months):</label>
                     <select id="lease-period" name="lease-period">
@@ -29,12 +33,15 @@
                     </select>
                 </div>
             </div>
+            <!-- Second row of form inputs -->
             <div class="form-row">
+                <!-- Car Value Input with Range -->
                 <div class="form-group">
                     <label for="car-value">Car Value (€10,000 - €200,000):</label>
                     <input type="number" id="car-value" name="car-value" min="10000" max="200000" step="1000">
                     <input type="range" id="car-value-range" name="car-value-range" min="10000" max="200000" step="1000">
                 </div>
+                <!-- Down Payment Input with Range -->
                 <div class="form-group">
                     <label for="down-payment">Down Payment (10% - 50%):</label>
                     <input type="number" id="down-payment" name="down-payment" min="10" max="50" step="5">
@@ -42,9 +49,11 @@
                 </div>
             </div>
         </form>
+        <!-- Results section -->
         <div id="results" class="results">
             <h2>Leasing Details</h2>
             <div class="details">
+                <!-- Detailed results display -->
                 <div class="detail-item">
                     <p>Total Leasing Cost: €<span id="leasing-cost">0</span></p>
                     <p>Down Payment: €<span id="down-payment-value">0</span></p>
@@ -56,6 +65,6 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
 </body>
 </html>
