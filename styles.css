@@ -19,7 +19,6 @@ body {
     box-sizing: border-box; /* Ensure padding and border are included in width */
 }
 
-/* Heading styling */
 h1 {
     text-align: center; /* Center-align heading */
 }
