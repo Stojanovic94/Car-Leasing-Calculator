@@ -51,7 +51,6 @@ input[type="number"], select {
     margin-bottom: 5px; /* Bottom margin for spacing */
 }
 
-/* Range input styling */
 input[type="range"] {
     width: 100%; /* Full width for range input */
 }
