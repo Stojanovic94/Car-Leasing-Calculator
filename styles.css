@@ -45,7 +45,6 @@ label {
     margin-bottom: 5px; /* Bottom margin for spacing */
 }
 
-/* Input and select styling */
 input[type="number"], select {
     width: calc(100% - 10px); /* Full width minus 10px for padding */
     padding: 8px; /* Padding for input elements */
