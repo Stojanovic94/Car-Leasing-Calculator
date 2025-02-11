@@ -36,7 +36,6 @@ h1 {
     margin-right: 20px; /* Right margin for spacing */
 }
 
-/* Remove right margin for last form group in a row */
 .form-group:last-child {
     margin-right: 0; /* No right margin */
 }
