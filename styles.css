@@ -23,7 +23,6 @@ h1 {
     text-align: center; /* Center-align heading */
 }
 
-/* Form row styling */
 .form-row {
     display: flex; /* Flex layout for form rows */
     justify-content: space-between; /* Space evenly between items */
