@@ -30,7 +30,6 @@ h1 {
     margin-right: 10px; /* Right margin for spacing */
 }
 
-/* Individual form group styling */
 .form-group {
     flex: 1; /* Take up equal space in the flex container */
     margin-bottom: 15px; /* Bottom margin for spacing */
