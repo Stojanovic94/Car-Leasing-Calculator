@@ -90,7 +90,6 @@ p {
     margin: 15px 0; /* Margin around paragraphs */
 }
 
-/* Media query for responsive design */
 @media (max-width: 600px) {
     .form-row {
         flex-direction: column; /* Stack form rows vertically on smaller screens */
