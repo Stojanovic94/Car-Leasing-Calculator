@@ -72,7 +72,6 @@ input[type="range"] {
     padding-top: 10px; /* Top padding for spacing */
 }
 
-/* Individual detail item styling */
 .detail-item {
     flex: 1; /* Take up equal space in the flex container */
     margin-right: 10px; /* Right margin for spacing */
