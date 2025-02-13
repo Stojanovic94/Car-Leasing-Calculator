@@ -100,7 +100,7 @@ p {
 
     .detail-item {
         margin-right: 0; /* Remove right margin for detail items */
-        margin-bottom: 10px; /* Bottom margin for spacing */
+        margin-bottom: 10px;
     }
 
     .detail-item:last-child {
