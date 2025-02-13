@@ -104,6 +104,6 @@ p {
     }
 
     .detail-item:last-child {
-        margin-bottom: 0; /* No bottom margin for last detail item */
+        margin-bottom: 0;
     }
 }
