@@ -78,7 +78,6 @@ input[type="range"] {
     margin-right: 10px; /* Right margin for spacing */
 }
 
-/* Remove right margin for last detail item in a row */
 .detail-item:last-child {
     margin-right: 0; /* No right margin */
 }
