@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Center content horizontally */
+    justify-content: center;
     align-items: center; /* Center content vertically */
     height: 100vh; /* Full viewport height */
 }
