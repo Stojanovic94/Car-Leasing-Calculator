@@ -2,7 +2,7 @@ body {
     font-family: Verdana, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 0; /* Remove default padding */
+    padding: 0;
     display: flex; /* Flex container for centering */
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
