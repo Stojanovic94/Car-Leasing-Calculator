@@ -64,7 +64,6 @@ input[type="range"] {
     margin-bottom: 15px; /* Bottom margin for spacing */
 }
 
-/* Details section styling */
 .details {
     display: flex; /* Flex layout for details */
     justify-content: space-between; /* Space evenly between items */
