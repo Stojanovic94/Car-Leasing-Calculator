@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, sans-serif;
     background-color: #f4f4f4;
-    margin: 0; /* Remove default margin */
+    margin: 0;
     padding: 0; /* Remove default padding */
     display: flex; /* Flex container for centering */
     justify-content: center; /* Center content horizontally */
