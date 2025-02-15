@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background: #fff; /* White background */
+    background: #fff;
     padding: 20px; /* Padding around the container */
     border-radius: 25px; /* Rounded corners */
     box-shadow: 0 0 20px rgba(0,0,0,0.2); /* Shadow for depth */
