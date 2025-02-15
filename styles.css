@@ -13,7 +13,7 @@ body {
     background: #fff;
     padding: 20px;
     border-radius: 25px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2); /* Shadow for depth */
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
     max-width: 650px; /* Maximum width of the container */
     width: 100%; /* Full width */
     box-sizing: border-box; /* Ensure padding and border are included in width */
