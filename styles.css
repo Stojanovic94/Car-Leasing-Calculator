@@ -94,7 +94,7 @@ p {
     }
 
     .details {
-        flex-direction: column; /* Stack details vertically on smaller screens */
+        flex-direction: column;
     }
 
     .detail-item {
