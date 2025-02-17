@@ -16,7 +16,7 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     max-width: 650px;
     width: 100%;
-    box-sizing: border-box; /* Ensure padding and border are included in width */
+    box-sizing: border-box;
 }
 
 h1 {
