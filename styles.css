@@ -25,7 +25,7 @@ h1 {
 
 .form-row {
     display: flex;
-    justify-content: space-between; /* Space evenly between items */
+    justify-content: space-between;
     margin-bottom: 5px; /* Bottom margin for spacing */
     margin-right: 10px; /* Right margin for spacing */
 }
