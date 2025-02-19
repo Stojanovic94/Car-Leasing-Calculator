@@ -27,7 +27,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
-    margin-right: 10px; /* Right margin for spacing */
+    margin-right: 10px;
 }
 
 .form-group {
