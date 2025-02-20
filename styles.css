@@ -32,7 +32,7 @@ h1 {
 
 .form-group {
     flex: 1;
-    margin-bottom: 15px; /* Bottom margin for spacing */
+    margin-bottom: 15px;
     margin-right: 20px; /* Right margin for spacing */
 }
 
