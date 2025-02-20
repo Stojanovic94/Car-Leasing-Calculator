@@ -33,7 +33,7 @@ h1 {
 .form-group {
     flex: 1;
     margin-bottom: 15px;
-    margin-right: 20px; /* Right margin for spacing */
+    margin-right: 20px;
 }
 
 .form-group:last-child {
