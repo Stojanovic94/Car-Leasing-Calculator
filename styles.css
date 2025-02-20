@@ -41,7 +41,7 @@ h1 {
 }
 
 label {
-    display: block; /* Block level display for labels */
+    display: block;
     margin-bottom: 5px; /* Bottom margin for spacing */
 }
 
