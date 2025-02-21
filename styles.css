@@ -47,7 +47,7 @@ label {
 
 input[type="number"], select {
     width: calc(100% - 10px);
-    padding: 8px; /* Padding for input elements */
+    padding: 8px;
     margin-bottom: 5px; /* Bottom margin for spacing */
 }
 
