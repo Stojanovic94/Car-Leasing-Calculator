@@ -52,7 +52,7 @@ input[type="number"], select {
 }
 
 input[type="range"] {
-    width: 100%; /* Full width for range input */
+    width: 100%;
 }
 
 .results {
