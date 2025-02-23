@@ -73,7 +73,7 @@ input[type="range"] {
 
 .detail-item {
     flex: 1;
-    margin-right: 10px; /* Right margin for spacing */
+    margin-right: 10px;
 }
 
 .detail-item:last-child {
