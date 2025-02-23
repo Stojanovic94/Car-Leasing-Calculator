@@ -77,7 +77,7 @@ input[type="range"] {
 }
 
 .detail-item:last-child {
-    margin-right: 0; /* No right margin */
+    margin-right: 0;
 }
 
 p {
