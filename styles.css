@@ -68,7 +68,7 @@ input[type="range"] {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid #ccc;
-    padding-top: 10px; /* Top padding for spacing */
+    padding-top: 10px;
 }
 
 .detail-item {
