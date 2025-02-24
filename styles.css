@@ -65,7 +65,7 @@ input[type="range"] {
 }
 
 .details {
-    display: flex; /* Flex layout for details */
+    display: flex;
     justify-content: space-between; /* Space evenly between items */
     border-top: 2px solid #ccc; /* Top border for separation */
     padding-top: 10px; /* Top padding for spacing */
